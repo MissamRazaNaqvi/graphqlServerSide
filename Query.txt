@@ -1,0 +1,16 @@
+//get All user with detail 
+  users{
+		id
+    firstname
+    firstname
+    lastname
+    email
+  	password
+  }
+//get All Quote 
+qoutes{
+    quote
+    id
+  }
+/get Quote of specific user
+
