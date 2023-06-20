@@ -14,3 +14,12 @@ qoutes{
   }
 /get Quote of specific user
 
+muted NewUser
+mutation createUser($userNew:userInput!){
+  signupUserDummy(userNew:$userNew){
+    firstname
+    lastname
+    email
+    password
+  }
+}
